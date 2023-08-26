@@ -138,8 +138,8 @@ nav a{
 }
 .esc_icon{
     position: fixed;
-    top:530px;
-    left: 1180px;
+    top:540px;
+    left: 1170px;
     z-index: 5;
 }
 .esc_icon a{
