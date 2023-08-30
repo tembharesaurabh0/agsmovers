@@ -114,6 +114,10 @@ nav a{
         padding-top: 60px;
     }
 }
+#sliderbtn{
+    position: relative;
+    bottom: 50px;
+}
 /* Slider Section End */
 /* International Section Start */
 .international .int_box{

@@ -8,6 +8,7 @@
     <link rel="icon" type="image" href="assest/img/bird_icon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./assest/css/style.css">
 </head>
 <body>
@@ -90,10 +91,10 @@
     <!-- Slider Section Start -->
     <div id="carouselExampleDark" class="carousel carousel-dark slide slider_window" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" id="sliderbtn" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" id="sliderbtn" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" id="sliderbtn" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" id="sliderbtn" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="3000">
@@ -128,7 +129,7 @@
     </div>
     <!-- Slider Section End -->
     <!-- International Section Start -->
-    <div class="international">
+    <div class="international" data-aos="zoom-in" data-aos-duration="400">
       <div class="container">
         <div class="row pt-2">
           <div class="int_box col-md-11 text-center p-4 pt-5 mx-auto shadow">
@@ -153,7 +154,7 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <div class="row">
-              <div class="col-lg-6 ic_1 px-4">
+              <div class="col-lg-6 ic_1 px-4" data-aos="fade-right">
                 <button class="individual px-5 py-1 text-white border-0">FOR INDIVIDUALS</button>
                 <div class="box_img mb-2">
                 <img src="assest/img/ic_left.jpg" alt="Individual" class="img-fluid">
@@ -162,7 +163,7 @@
               <button class="p-2 px-4 mb-3 ic-left-button">SEE OUR SERVICES</button>
               <button class="p-2 px-4 mx-3 mb-3 text-white ic-right-button border-0">REQUEST A QUOTE</button>
               </div>
-              <div class="col-lg-6 ic_2 px-4">
+              <div class="col-lg-6 ic_2 px-4" data-aos="fade-left">
                 <button class="corporation px-5 py-1 text-white border-0">FOR CORPORATIONS</button>
                 <div class="box_img mb-2">
                 <img src="assest/img/ic_right.jpg" alt="Corporation" class="img-fluid">
@@ -184,7 +185,7 @@
           <div class="col-md-12 text-center">
           <h3 class="text-white">Domestic & International Removals Solutions</h3>
           <p class="text-secondary fw-bold">AGS International Movers offers excellence to each of its clients.</p>
-          <div class="row py-2">
+          <div class="row py-2" data-aos="fade-up">
             <div class="col-lg-1">&nbsp;</div>
             <div class="col-lg-2">
               <a href="javascript:void()"><img src="assest/img/d_1.png" alt="International" width="135" height="135"></a>
@@ -227,14 +228,14 @@
       <p class="fw-bold py-1">We assist and accompany more than 150000 families with their relocation every year. We pride ourselves in our ability to safely and successfully move any item in your home.</p>
     </div>
     <div class="row py-5">
-      <div class="col-lg-6 d-flex px-3">
+      <div class="col-lg-6 d-flex px-3" data-aos="fade-down">
         <a href="javascript:void()"><img src="assest/img/client_R1L.png" alt="Quality" width="115" height="115"></a>
         <div class="client_para px-4">
         <h4>Quality & Satisfaction</h4>
         <p>We uphold a high standard of performance and adhere to strict terms and procedures to provide <span> the best quality </span> of services. <span> Mr GoodMove, our dedicated customer care department, </span> allows us to guarantee your complete satisfaction, by continuing to help you even when the move is finished.</p>
       </div>
       </div>
-      <div class="col-lg-6 d-flex px-3">
+      <div class="col-lg-6 d-flex px-3" data-aos="fade-down">
         <a href="javascript:void()"><img src="assest/img/client_R1R.png" alt="Quality" width="115" height="115"></a>
         <div class="client_para px-4">
         <h4>Security & Reliability</h4>
@@ -242,14 +243,14 @@
       </div>
     </div>
     <div class="row pt-5">
-      <div class="col-lg-6 d-flex px-3">
+      <div class="col-lg-6 d-flex px-3" data-aos="fade-up">
         <a href="javascript:void()"><img src="assest/img/client_R2L.png" alt="Quality" width="115" height="115"></a>
         <div class="client_para px-4">
         <h4>Flexibility & Advice</h4>
         <p>We are the trusted partner of individuals, corporates, institutions and NGOs. They have been moving with us for 49 years. Our ability to respect deadlines and to deliver fast and excellent services all year round helps building strong partnerships with our customers. We advise our clients on the various options available and offer high quality services at competitive prices.</p>
       </div>
       </div>
-      <div class="col-lg-6 d-flex px-3">
+      <div class="col-lg-6 d-flex px-3" data-aos="fade-up">
         <a href="javascript:void()"><img src="assest/img/client_R2R.png" alt="Quality" width="115" height="115"></a>
         <div class="client_para px-4">
         <h4>Cutting-edge solutions</h4>
@@ -262,7 +263,7 @@
 </div>
 <!--CLient Satisfaction Section End-->
 <!--Blur Count Section Start-->
-<div class="move">
+<div class="move" data-aos="zoom-in">
   <div class="container-fluid"
       style="background-image: url(./assest/img/blur_count.jpg);background-size: 100% 100%;">
       <div class="container p-5">
@@ -299,7 +300,7 @@
           <div class="col-md-12 text-center mx-auto">
               <h2>Our worldwide network</h2>
               <h6>Quality door-to-door international removals, to and from anywhere in the world.</h6>
-              <img src="./assest/img/ags_map.jpg" alt="#" width="1000px" height="600px" class="img-fluid py-3">
+              <img src="./assest/img/ags_map.jpg" alt="#" width="1000px" height="600px" class="img-fluid py-3" data-aos="fade-out">
           </div>
           <div class="row">
             <div class="col-md-9 mx-auto">
@@ -401,9 +402,15 @@
 </div>
 </div>
 <!-- Footer Section End -->
-    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:150,
+        duration:1100
+      });
+    </script>
     <script src="./assest/js/script.js"></script>
 </body>
 </html>
